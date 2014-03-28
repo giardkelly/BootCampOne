@@ -1,0 +1,30 @@
+div#ourcolumns{
+	-webkit-column-count:3; /*Safari and Chrome*/
+	-moz-column-count:2; /*Firefox*/
+	column-count:2; /*Everyone Else*/
+	-webkit-column-gap:30px;
+	-moz-column-gap:30px; 
+	column-count-gap:30px;
+
+	-webkit-column-rule:10px ridge purple;
+	-moz-column-rule:10px ridge purple;
+	column-rule:10px ridge purple;
+	width:auto; 
+	padding: 20px;
+	border: 20px ridge purple;
+	background-image:url('../images/jellyfish.jpg');
+	background-repeat: no-repeat; 
+	background-size: 60px;
+	border: 30px ridge purple;
+	background-height:100px;
+	/* background-clip:border-box; */
+	/*background-origin: padding-box;*/
+	background-position: top left;
+	text-indent: 50px;
+	text-decoration: line-through;
+	text-decoration:underline;
+	text-decoration-color: purple;
+	background-color: green;
+}
+
+ 

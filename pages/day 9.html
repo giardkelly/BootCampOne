@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Day 9 Html</title>
+
+<body>
+<header><h1>Day 9 HTML</h1></header>
+<button type= "button" onclick =" myfunction()">STOP</button>
+<button type= "button" onclick =" addtext('Jose')"> You should stop that button</button>
+<br>
+<canvas id="my canvas" width="200" height"100" style"border:1px solid #d3d3d3;".> Your Browswer does not support the HTML5 canvas tag, I know you are useing IE....... Stop...<a href="www. chrome.com">get chrome</a></canvas>
+
+<script>
+var c=document, getElementById("my canvas"):
+var ctx=c.getContex("2d");
+ctx.fillstyle= "Purple";
+ctx.fillrect(0,0,150,75);
+
+ctx.linewidth=2 
+ctx.beginpath(); 
+ctx. moveTo(0,40);
+ctx. lineTo(30,0);
+ctx.lineTo(60,40);
+ctx.lineTo(90,40);
+ctx.lineTo(0,80);
+ctx.lineTo(120,100);
+ctx.stroke();
+ctx.closePath();
+
+ctx.beginpath();
+ctx.arc(30,60,20,0,2*Math.PI);
+ctx.stroke();
+ctx.closePath();
+
+ctx.beginpath();
+ctx.arc(150,60,20,0,2*Math.PI);
+ctx.stroke();
+ctx.closePath();
+
+ctx.beginpath();
+ctx.arc(30,60,20,0,2*Math.PI);
+ctx.stroke();
+ctx.closePath();
+
+ctx.beginpath();
+ctx.arc(150,60,20,0,2*Math.PI);
+ctx.stroke();
+ctx.closePath();
+
+ctx.beginpath();
+ctx.fillstyle="#000000";
+
+ctx.font="40px"Arial";
+var gradient=ctx.creatLineGradient;
+ctx.fillText("Meow"100,100);
+ctx.closePath();
+
+ctx.beginpath();
+ctx.font="30px Arial" 
+ctx.strokeText
+
+
+
+
+	var a = 3;
+	var b = 4;
+	var c = a + b;
+	var d ="dog";
+	alert(d);
+
+	function myfunction () {
+	
+		alert("In the name of Love!");
+    }
+    function addtext(name)
+	{
+		document.write("<h3> or <h1 id=\"name\">" + name + "</h1> will hurt you!</h3>");
+		document.write("<button type=\"button\"onclick=\"changecolor()\">change color</button>")
+	}
+    function changecolor()
+	{
+		var x = document.getElementById("name");
+		x.style.color = "#DC143C";
+		if (x.innerHTML == "Bob")
+		{
+			document.write("<h1> No Bob No!</h1>")
+		}
+    }
+
+</script>
+
+
+
+</body>
+</head>
+</html>

@@ -1,0 +1,224 @@
+/*CSS RESET*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*my profile*/	
+
+
+ body{ font-family: "sans-serif",arial,georgia,times;/*background */
+
+background: url(../images/190.jpg);{
+	
+}
+
+
+
+
+
+}
+
+
+	
+}
+#image{ border:px ridge purple; /*not displaying*/
+
+}
+/*header*/ /* change font family and some bold */
+#header{border: 2px ridge purple;
+padding: 10px;
+margin: 0px 10px;
+background-color: rgba(223,154,224,0.7);
+position: absolute;
+top: 1px;
+left: 422px;
+width: 815px;
+height: 35px;
+font-style: italic;
+font-size: 25px;
+font-weight: bold;
+font-family: georgia;
+
+}
+
+/*navigation */
+nav {border:2px ridge purple;
+	padding: 20px;
+	margin: 0px;
+	background-color: rgba(223,154,224,0.7);
+	
+
+	position:absolute;
+	top: 70px;
+	left:432px;
+	width: 795px;
+	height: 25px;
+	font-weight: bold;
+    font-size: 20px;
+    font-family:georgia;
+
+} 
+nav ul{ /*list-style-type: ;*/
+	
+}
+nav ul li { display: inline;
+}
+nav ul li a { 
+padding:20px; 
+}
+
+nav ul li a:hover{
+	color:#f4308c;
+}
+ 
+
+/*aside*/
+
+#left_side{
+	background-color:rgba(223,154,224,0.7);
+	border:2px ridge purple;
+	padding: 20px;
+	margin: 20px;
+	width:344px;
+	position:absolute; 
+	font-family: georgia;
+	font-style:bold;
+	font-size: 15px;
+    top:-15px;
+    bottom:-235px;
+
+
+}
+
+/* this is the ens of nav*/
+/*
+#video {
+	background-color: rgba(223,154,224,0.7);
+	border:2px ridge purple;
+	padding: 0px;
+	margin: 0px;
+	width: 0px;
+	position:absolute;
+	top: 0px;
+	bottom: 0px; */
+
+
+ /*a {acolor: purple;
+}
+text-decoration:none;}
+a.visited{color: green;} /*not working*/
+/*a.hover{color: red;*/
+/*text-decoration:underline;}
+a.active{color: black;
+text-decoration: underline;}*/
+
+section{
+	border: 2px ridge purple; /* change some text to bold*/
+	padding: 10px;              /* font and color and hover over the word visulaization ????*/
+	margin: 0 10px;             /* h1 header to fancy text and bold*/
+	background-color: rgba(223,154,224,0.7);
+	position: absolute;        
+	left: 422px;
+	top:  150px;
+	width: 816px;
+	font-size: 15px;
+	font-style: italic;
+	font-family: georgia;
+	font-style: bold;
+
+
+}
+
+
+
+
+
+/*footer */
+footer{
+	border: 2px ridge purple;
+	background-color: rgba(223,154,224,0.7);
+	
+	padding: 10px;
+	margin: 10px;
+	position: absolute;
+	left: 422px;
+	top:855px;
+	font-family: georgia;
+	font-style: italic;
+
+}
+
+
+/* table */ /* put in a section*/
+
+#table{ border:2px ridge purple;
+	position:absolute;
+	left: 422px;
+	top: 740px;
+}
+}
+table {border:1px ridge purple;
+	border-collapse: collapse;
+	padding: 5px;
+	margin: 0px;
+	height: 75px;
+	font-family:georgia;
+	font-style: bold;
+	font-style: italic;
+
+
+	
+}
+
+td, th { border:1px ridge purple;
+	padding: 5px;
+	margin: 10px;
+	height: 10px;
+	font-family:georgia;
+	font-style: italic;
+	font-style:bold;
+
+	
+
+}
+ 
